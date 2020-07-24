@@ -14,9 +14,7 @@ module.exports = {
       privateKey: 'ce0b8d8f8af7f236a6e2bf4c259cda09dd748a20d2c500665d91933fbb4b4850',
       consume_user_resource_percent: 30,
       fee_limit: 100000000,
-      fullNode: "https://api.shasta.trongrid.io",
-      solidityNode: "https://api.shasta.trongrid.io",
-      eventServer: "https://api.shasta.trongrid.io",
+      fullHost: "https://api.shasta.trongrid.io",
       network_id: "*"
     },
     mainnet: {
@@ -25,9 +23,7 @@ module.exports = {
       privateKey: process.env.PK,
       consume_user_resource_percent: 30,
       fee_limit: 100000000,
-      fullNode: "https://api.trongrid.io",
-      solidityNode: "https://api.trongrid.io",
-      eventServer: "https://api.trongrid.io",
+      fullHost: "https://api.trongrid.io",
       network_id: "*"
     }
   }
